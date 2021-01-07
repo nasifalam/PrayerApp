@@ -43,7 +43,6 @@ if(isset($_POST['fajr'])) {
 $fajr=$_POST['fajr'];
     if($fajr=="No"){
 
-      $code = "<?php if(isset($_POST['fajr'])) {if ($_POST['fajr'] == 'Yes') { ?>selected='true'  <?php }}; ?>";
 
       echo "<div class='form-group'>
 
